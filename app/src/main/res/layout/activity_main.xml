@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6800D1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:src="@mipmap/round_button" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Username"
+        android:textColor="#C1AFF0"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:backgroundTint="#FDFDFD"
+        android:singleLine="true"
+        android:hint="jayesh.kanzariya"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FDFDFD"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Password"
+        android:textColor="#C1AFF0"
+        android:textSize="15sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:singleLine="true"
+        android:layout_marginRight="20sp"
+        android:backgroundTint="#FDFDFD"
+        android:hint="*****"
+        android:inputType="textPassword"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FDFDFD"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:id="@+id/btn_Login"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20sp"
+        android:background="#FDFDFD"
+        android:text="Login"
+        android:textColor="#6800D1" />
+</LinearLayout>

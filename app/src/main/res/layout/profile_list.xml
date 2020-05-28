@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<!--    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#6800D1"
+        android:titleTextColor="#FDFDFD">
+
+        <RelativeLayout
+            android:id="@+id/relative_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/back_aero"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:drawableStart="@mipmap/ic_back_button"
+                android:textColor="#FDFDFD"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/back_aero"
+                android:paddingStart="5dp"
+                android:text="@string/meeting_details_title"
+                android:textColor="#FDFDFD"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="330dp"
+                android:src="@mipmap/menu" />
+        </RelativeLayout>
+    </Toolbar>-->
+
+    <RelativeLayout
+        android:id="@+id/user_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_account" />
+
+        <TextView
+            android:id="@+id/user_title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/image_view"
+            android:text="@string/name_title"
+            android:textSize="20sp"
+            android:textColor="#51513D"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_day"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_title"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/image_view"
+            android:text="@string/profile_day"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/user_time"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="15dp"
+            android:textColor="#202020"
+            android:layout_toEndOf="@id/user_title"
+            android:gravity="center"
+            android:text="@string/profile_time"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Layout Practices</string>
+    <string name="meeting_details_title">Meeting details</string>
+    <string name="name_title">Title</string>
+    <string name="profile_day">Today</string>
+    <string name="profile_time">10 min</string>
+    <string name="title_schedule">Schedule</string>
+</resources>
